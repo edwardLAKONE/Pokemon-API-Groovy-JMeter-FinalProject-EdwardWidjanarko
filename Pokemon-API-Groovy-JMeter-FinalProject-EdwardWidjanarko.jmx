@@ -26,7 +26,11 @@
       </ThreadGroup>
       <hashTree>
         <WhileController guiclass="WhileControllerGui" testclass="WhileController" testname="While Controller" enabled="true">
-          <stringProp name="WhileController.condition">${__groovy(vars.get(&quot;pikachuFound&quot;) !=&quot;true&quot;)}</stringProp>
+          <stringProp name="WhileController.condition">// Inisialisasi variabel awal
+vars.put(&apos;pikachuFound&apos;, &apos;false&apos;)
+
+while (${__groovy(vars.get(&apos;pikachuFound&apos;) != &apos;true&apos;,)}
+)</stringProp>
         </WhileController>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="HTTP Request" enabled="true">
