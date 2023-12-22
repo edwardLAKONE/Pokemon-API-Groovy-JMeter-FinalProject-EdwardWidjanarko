@@ -11,7 +11,7 @@
     - Java
 
 # Gambaran Rencana Uji
-# Rencana uji JMeter (Pokemon-API-Test.jmx) memiliki struktur sebagai berikut:
+# Rencana uji JMeter (Pokemon-API-Groovy-JMeter-FinalProject-EdwardWidjanarko.jmx) memiliki struktur sebagai berikut:
 
     Thread Group:  simulasi pengguna.
 
